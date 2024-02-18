@@ -1,0 +1,35 @@
+/* CSS for Video Section */
+.sneak-vid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the video containers horizontally */
+    gap: 20px;
+    padding: 20px;
+}
+
+.sneak-vid-asset {
+    overflow: hidden;
+    width: calc(33.33% - 10px); /* 3 cards per row, considering margin */
+    margin-right: 20px; /* Adjust margin for spacing */
+    margin-bottom: 20px; /* Add margin at the bottom of each video container */
+    background-color: #f9f9f900;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    position: relative;
+}
+
+.sneak-vid {
+    width: 100%;
+    max-width: 100%;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
