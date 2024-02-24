@@ -601,17 +601,6 @@ body {
 #about-zenin {
 	background: var(--main_col);
 	display: inline-block;
-	padding: 20px 0 55px;
-}
-
-.h1-center-card {
-	padding: 1%;
-	color: #fff;
-	width: 35%;
-	margin: auto;
-	margin-top: 1%;
-	text-align: center;
-    text-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
 /* 6. SNEAK PEEKS
