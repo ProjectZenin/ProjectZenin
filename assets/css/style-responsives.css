@@ -9,11 +9,19 @@
 		font-weight: 600;
 	}
 	/* NAVIGATION */
+	.logo a.hide-item-zenin {
+		display: none;
+	}
+
+	#logo-image-zenin-container{
+		width: 27.5%;
+	}
+
 	.navbar-toggle .icon-bar {
 		background: #f8f8f8;
 	}
 	.nav-bg .navbar-toggle .icon-bar {
-		background: #303030;
+		background: white;
 	}
 	.navbar-toggle {
 		margin-right: 0px;
@@ -24,10 +32,10 @@
 	}
 	.navigation-menu .navbar-nav li a {
 		padding: 11px 15px;
-		color: #303030;
+		color: white;
 	}
 	.navigation-menu .navbar-nav .active {
-		color: #48b14d;
+		color: var(--accent_col);
 	}
 	.navigation-menu .navbar-nav li a:hover {
 		color: #737373;
@@ -46,10 +54,10 @@
 		margin-top: -30px;
 	}
 	.navbar-collapse {
-		background: #fff;
+		background: var(--main_col);
 	}
 	.nav-bg .navbar-collapse {
-		background: #fff;
+		background: var(--main_col);
 	}
 	.custom-navbar .nav li.active>a {
 		border-bottom: 2px solid transparent !important;
@@ -100,89 +108,6 @@
 		font-size: 17px;
 		font-weight: 600;
 	}
-	/* SKILLS */
-	#skills {
-		padding: 70px 0 30px;
-	}
-	.progress-box {
-		margin-left: 0;
-		margin-right: 0;
-		margin-bottom: 50px;
-	}
-	/* PORTFOLIO */
-	#portfolio {
-		padding: 70px 0 60px;
-	}
-	.filter-btn {
-		margin-top: 30px;
-		margin-bottom: 0;
-	}
-	.filter {
-		margin: 8px 5px;
-		font-weight: 600;
-	}
-	.grid figure {
-		padding: 0;
-		margin: 0;
-		min-width: 100%;
-		max-width: 100%;
-		max-height: 100%;
-		width: 48%;
-	}
-	/* SERVICES */
-	#services {
-		padding: 70px 0 30px;
-	}
-	#services h2 {
-		margin-bottom: 50px;
-	}
-	.services-item {
-		padding: 0;
-		margin-bottom: 40px;
-	}
-	/* HIRE */
-	#hire {
-		padding: 65px 0 70px;
-	}
-	#hire .btn {
-		margin-top: 30px;
-		float: left;
-	}
-	.btn-lg {
-		padding: 18px 48px;
-		font-size: 18px;
-	}
-	/* TESTIMONIAL */
-	#testimonial {
-		padding: 75px 0 95px;
-	}
-	#testimonial .flexslider {
-		width: 90%;
-	}
-	.testimonial-slider h2 {
-		font-size: 1.3em;
-	}
-	.flex-control-paging li a {
-		margin-top: -100px;
-		height: 8px;
-		width: 8px;
-	}
-	/* BLOG */
-	#blog {
-		padding: 70px 0 70px;
-	}
-	.blog-item {
-		margin-bottom: 0px;
-	}
-	.blog-item .blog-img {
-		margin-bottom: 20px;
-		margin-top: 35px;
-	}
-	.post-container {
-        margin: 0 auto;
-        width: 100%;
-        padding: 5rem 1.3rem;
-    }
 	/* CONTACT */
 	#contact {
 		padding: 70px 0 70px;
@@ -198,6 +123,16 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
 	/* NAVIGATION */
+
+	.logo a.hide-item-zenin {
+		display: none;
+	}
+
+	#logo-image-zenin-container{
+		width: 27.5%;
+	}
+
+
 	.logo {
 		padding-top: 25px;
 		-webkit-transition: all 0.3s ease-out;
@@ -230,6 +165,10 @@
 	.testimonial-slider h2 {
 		font-size: 1.4em;
 	}
+
+	.hide-item-zenin {
+		display: none;
+	}
 }
 
 /* XX. LAPTOP 1024 SCREEN
@@ -256,6 +195,10 @@
 		font-size: 16px;
 	}
 	/* NAVIGATION */
+
+	.hide-item-zenin {
+		display: none;
+	}
 	.logo a {
 		font-size: 0.8em;
 	}
@@ -268,7 +211,7 @@
 		transition: all 0.3s ease-out;
 	}
 	.nav-bg .navigation-menu .navbar-nav li a {
-		color: #131313;
+		color: white;
 		padding: 18px 11px;
 		-webkit-transition: .3s;
 		transition: .3s;
