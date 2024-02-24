@@ -599,7 +599,8 @@ body {
 =================================================*/
 
 #about-zenin {
-	background-color: var(--main_col);
+	background: var(--main_col);
+	padding: 20px 0 55px;
 }
 
 .h1-center-card {
