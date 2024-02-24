@@ -1,7 +1,7 @@
 :root {
 	--main_col: #1e1e1e;
 	--second_col: #181818;
-	--accent_col: #702e9f;
+	--accent_col: #bc73f1;
 }
 
 /* 01. TYPOGRAPHY
@@ -160,6 +160,7 @@ body {
 #preloader {
 	position: fixed;
 	background: #131313;
+	/*background: url('../images/logo/project_zenin.png') center no-repeat;*/
 	top: 0;
 	left: 0;
 	right: 0;
@@ -194,14 +195,10 @@ body {
 	display: block;
 	background: #fff;
 	content: "";
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
 	margin: auto;
 	width: 12px;
 	height: 12px;
-	top: 0;
+	top: 20%;
 	left: 0;
 	bottom: 0;
 	right: 0;
@@ -244,7 +241,7 @@ body {
 .loader-revolve span {
 	display: block;
 	position: absolute;
-	top: 0;
+	top: 20%;
 	left: 0;
 	bottom: 0;
 	right: 0;
@@ -364,7 +361,8 @@ body {
 }
 
 .logo {
-	padding-top: 28px;
+	display: flex;
+	padding-top: 12px;
 	-webkit-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
@@ -414,8 +412,8 @@ body {
 }
 
 .nav-bg {
-	background: #fff;
-	border-bottom: 1px solid #f0f0f0;
+	background: var(--second_col);
+	/*border-bottom: 1px solid #f0f0f0;*/
 	-webkit-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
@@ -426,6 +424,7 @@ body {
 	transition: all 0.3s ease-out;
 }
 
+/*
 .nav-bg .logo a {
 	color: #131313;
 }
@@ -436,7 +435,7 @@ body {
 	-webkit-transition: .3s;
 	transition: .3s;
 }
-
+*/
 .nav-bg .navigation-menu .navbar-nav li a:hover {
 	color: var(--accent_col);
 }
