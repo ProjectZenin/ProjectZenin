@@ -599,7 +599,7 @@ body {
 =================================================*/
 
 #about-zenin {
-	background: var(--main_col);
+	background-color: var(--main_col);
 	padding: 20px 0 55px;
 }
 
